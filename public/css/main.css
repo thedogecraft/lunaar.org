@@ -86,14 +86,14 @@ body {
   margin-left: 20vw;
   margin-right: 20vw;
 
-  border: 2px solid var(--border-color);
+  border: 1px solid var(--border-color);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   transition:
     width 0.3s ease,
     height 0.3s ease;
 }
 .navbar.navbar-proxy {
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   position: relative;
 }
 
@@ -235,11 +235,11 @@ body {
     background-color 0.2s,
     transform 0.2s;
   font-weight: 600;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 }
 .btn-outline {
   background-color: transparent;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
 .btn-outline:hover,
@@ -274,7 +274,7 @@ body {
   font-size: var(--font-size);
   color: var(--text-color);
   background-color: var(--bg-color);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--border-radius);
   transition: border-color 0.2s;
 }
@@ -324,7 +324,7 @@ main {
   height: 50px;
   border-radius: var(--border-radius);
   transition: all 0.2s ease-in-out;
-  border: 2px solid var(--border-color);
+  border: 1px solid var(--border-color);
 }
 .search-container .search {
   width: 100%;
@@ -343,7 +343,7 @@ main {
   width: 100%;
 }
 .search-container:focus-within {
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   outline: none;
 }
 .search-container .search {
@@ -386,14 +386,14 @@ main {
   text-align: center;
   color: var(--text-color);
   transition: all 0.2s ease-in-out;
-  border: 2px solid var(--border-color);
+  border: 1px solid var(--border-color);
   position: relative;
 }
 .shortcut-add {
   background-color: transparent;
   color: var(--text-color);
 
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 .shortcut-add:hover {
   background-color: var(--primary-color) !important;
@@ -453,7 +453,7 @@ main {
   display: flex;
   flex-direction: column;
   max-width: fit-content;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: var(--border-radius);
   width: 80%;
 
@@ -718,7 +718,7 @@ main {
   align-items: center;
   justify-content: center;
   font-size: var(--font-size);
-  /* border-top: 2px solid var(--border-color); */
+  /* border-top: 1px solid var(--border-color); */
 }
 .footer .footer-version {
   color: var(--accent-color);
@@ -742,7 +742,7 @@ main {
 .swal2-popup {
   background: var(--bg-2-color) !important;
   color: var(--text-color) !important;
-  border: 2px solid var(--border-color);
+  border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
 }
@@ -757,7 +757,7 @@ main {
 .swal2-select {
   background: var(--bg-color) !important;
   color: var(--text-color) !important;
-  border: 2px solid var(--border-color) !important;
+  border: 1px solid var(--border-color) !important;
   border-radius: var(--border-radius) !important;
   box-shadow: none !important;
 }
@@ -771,14 +771,14 @@ main {
   background: var(--primary-color) !important;
   color: var(--text-color) !important;
   border-radius: var(--border-radius) !important;
-  border: 2px solid transparent !important;
+  border: 1px solid transparent !important;
   font-weight: 600;
   font-family: inherit;
 }
 .swal2-actions .swal2-cancel {
   background: transparent !important;
   color: var(--text-color) !important;
-  border: 2px solid var(--border-color) !important;
+  border: 1px solid var(--border-color) !important;
   border-radius: var(--border-radius) !important;
   font-weight: 600;
   font-family: inherit;
@@ -992,7 +992,7 @@ option:hover {
 }
 ::picker(select) {
   border-radius: var(--border-radius);
-  border: 2px solid var(--border-color);
+  border: 1px solid var(--border-color);
   background-color: var(--bg-2-color);
   scrollbar-color: var(--primary-color) var(--bg-2-color);
 }
